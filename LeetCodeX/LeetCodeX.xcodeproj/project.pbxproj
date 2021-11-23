@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D92B3BD9274644F400A65732 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B3BD8274644F400A65732 /* main.swift */; };
 		D9E78124272F8CFC005406DF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E78123272F8CFC005406DF /* main.swift */; };
 		D9E78132272F8DC9005406DF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E78131272F8DC9005406DF /* main.swift */; };
 		D9E7813F272F9227005406DF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7813E272F9227005406DF /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D92B3BCB274644DC00A65732 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		D9E7811E272F8CFC005406DF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,6 +54,8 @@
 
 /* Begin PBXFileReference section */
 		D919775F272F931D00BDB174 /* LeetCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeetCode.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D92B3BCD274644DC00A65732 /* 树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92B3BD8274644F400A65732 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D9E78120272F8CFC005406DF /* LeetCodeX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeX; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E78123272F8CFC005406DF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D9E7812F272F8DC9005406DF /* 链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "链表"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +65,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D92B3BCA274644DC00A65732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9E7811D272F8CFC005406DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,11 +96,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D92B3BCE274644DC00A65732 /* 树 */ = {
+			isa = PBXGroup;
+			children = (
+				D92B3BD8274644F400A65732 /* main.swift */,
+			);
+			path = "树";
+			sourceTree = "<group>";
+		};
 		D9E78117272F8CFC005406DF = {
 			isa = PBXGroup;
 			children = (
 				D9E78122272F8CFC005406DF /* LeetCodeX */,
 				D9E78130272F8DC9005406DF /* 链表 */,
+				D92B3BCE274644DC00A65732 /* 树 */,
 				D9E7813D272F9227005406DF /* 练习题1 */,
 				D9E78121272F8CFC005406DF /* Products */,
 			);
@@ -93,6 +121,7 @@
 				D9E78120272F8CFC005406DF /* LeetCodeX */,
 				D9E7812F272F8DC9005406DF /* 链表 */,
 				D9E7813C272F9227005406DF /* 练习题1 */,
+				D92B3BCD274644DC00A65732 /* 树 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +154,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D92B3BCC274644DC00A65732 /* 树 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92B3BD1274644DC00A65732 /* Build configuration list for PBXNativeTarget "树" */;
+			buildPhases = (
+				D92B3BC9274644DC00A65732 /* Sources */,
+				D92B3BCA274644DC00A65732 /* Frameworks */,
+				D92B3BCB274644DC00A65732 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "树";
+			productName = "树";
+			productReference = D92B3BCD274644DC00A65732 /* 树 */;
+			productType = "com.apple.product-type.tool";
+		};
 		D9E7811F272F8CFC005406DF /* LeetCodeX */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9E78127272F8CFC005406DF /* Build configuration list for PBXNativeTarget "LeetCodeX" */;
@@ -185,6 +231,9 @@
 				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
+					D92B3BCC274644DC00A65732 = {
+						CreatedOnToolsVersion = 12.1;
+					};
 					D9E7811F272F8CFC005406DF = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -212,11 +261,20 @@
 				D9E7811F272F8CFC005406DF /* LeetCodeX */,
 				D9E7812E272F8DC9005406DF /* 链表 */,
 				D9E7813B272F9227005406DF /* 练习题1 */,
+				D92B3BCC274644DC00A65732 /* 树 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D92B3BC9274644DC00A65732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B3BD9274644F400A65732 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9E7811C272F8CFC005406DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,6 +302,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D92B3BD2274644DC00A65732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88TW74DSHB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D92B3BD3274644DC00A65732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88TW74DSHB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		D9E78125272F8CFC005406DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,6 +508,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D92B3BD1274644DC00A65732 /* Build configuration list for PBXNativeTarget "树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92B3BD2274644DC00A65732 /* Debug */,
+				D92B3BD3274644DC00A65732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D9E7811B272F8CFC005406DF /* Build configuration list for PBXProject "LeetCodeX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

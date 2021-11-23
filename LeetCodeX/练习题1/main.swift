@@ -2,7 +2,7 @@
 import Foundation
 
 /**
- 找出数组中没有出现的最小正整数 用O(n)算法
+ 找出数组中没有出现的最小正整数 用O(n)算法  解法:创建空数组
  数组 [4,-1,9,6,10] 最小正整数是 1
  数组 [3,1,-6,7,10] 最小正整数是 2
  */
@@ -24,7 +24,7 @@ func findMinNum(_ nums:[Int]) -> Int {
     return theNum
 }
 
-let answer = findMinNum([1,2,3,-1,6])
+let answer = findMinNum([1,2,3,4,6])
 print("the answer is :\(answer)")
 
 
